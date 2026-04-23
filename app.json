@@ -12,6 +12,10 @@
     },
     "android": {
       "backgroundColor": "#ffffff"
-    }
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-barcode-scanner"
+    ]
   }
 }
