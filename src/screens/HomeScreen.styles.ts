@@ -76,4 +76,23 @@ export const styles = StyleSheet.create({
     fontSize: 14, 
     color: COLORS.textSecondary 
   },
+  headerTop: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  profileButton: {
+    width: 45,
+    height: 45,
+    borderRadius: 15,
+    backgroundColor: COLORS.white,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
 });
