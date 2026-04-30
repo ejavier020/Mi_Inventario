@@ -16,7 +16,7 @@ export const firebaseApi = {
     });
     return await response.json();
   },
-
+// prueba de commit eluque perdio Santa Fe
   deleteProduct: async (id: string) => {
     await fetch(`${BASE_URL}products/${id}.json`, {
       method: 'DELETE',
